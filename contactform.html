@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shahul">
+    <meta name="description" content="Contact page">
+    <title>Contact</title>
+    <style>
+        body{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       .contact{
+           width: 70%;
+           border:2px solid gray;
+           border-top: 0px;
+           border-bottom: 0px;
+           padding: 10px;
+       }
+   </style>
+</head>
+<body>
+    <div class="contact">
+        <header>
+            <h1 id="top"> Contact Page </h1>
+            <nav>
+                <ul>
+                    <li><a href="./Index.html">Home</a></li>
+                    <li><a href="#about">About LTS</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="./shop_hours.html">Stop Hours</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <figure>
+                <img src="./contact.jpeg" alt="Contact">
+                <caption>Little Taco Shop Tacos</caption>
+            </figure>
+            <h1>Our Contact Form</h1>
+            <form action="#">
+                <fieldset>
+                    <legend>
+                        Send Us A Message
+                    </legend>
+                    <label for="name">Name: &nbsp; </label>
+                    <input type="text" name="EmpName" placeholder="your name" id="name">
+                    <br>
+                    <label for="mail">Email : &nbsp; </label>
+                    <input type="email" name="Empemail" placeholder="your email" id="mail">
+                    <br>
+                    <label for="msg">Your Message : </label><br>
+                    <textarea name="Message" id="msg" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                    <br>
+                    <br>
+                </fieldset>
+                <input type="submit" name="Submit" >
+                <input type="reset" name="Reset">
+            </form>
+            <h1>Our Location</h1>
+            <Address>
+                653a, 1st kar street,
+                Dh road, Tiruppur-641665.
+                <a href="mailto:shashashahul619@gmail.com " target="_blank">Shahul Mail</a>
+                phone : <a href="#">7826927252</a>
+            </Address>
+        </main>
+        <footer>
+            <br>
+            <a href="#top">Back to Top</a>
+            <hr>
+            Copyright C The Little Taco Shop
+        </footer> 
+    </div>
+</body>
+</html>
